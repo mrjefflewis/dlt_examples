@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "chess_pipeline",
+            "database": "${workspaceFolder:dlt_examples}/chess_pipeline.duckdb"
+        }
+    ]
+}

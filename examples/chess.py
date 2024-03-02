@@ -1,6 +1,8 @@
 import dlt
 from dlt.sources.helpers import requests
 
+import duckdb
+
 # Create a dlt pipeline that will load
 # chess player data to the DuckDB destination
 pipeline = dlt.pipeline(
@@ -14,3 +16,4 @@ for player in ["magnuscarlsen", "rpragchess"]:
     data.append(response.json())
 # Extract, normalize, and load the data
 load_info = pipeline.run(data, table_name="player")
+
