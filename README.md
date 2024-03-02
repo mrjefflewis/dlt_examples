@@ -13,7 +13,7 @@ To set up a virtual environment and install the required packages, follow these 
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/dlt_examples.git
+    git clone https://github.com/mrjefflewis/dlt_examples.git
     cd dlt_examples
     ```
 
